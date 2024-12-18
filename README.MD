@@ -28,3 +28,21 @@ SELECT `period`,`year`
 FROM `courses`
 WHERE `year` = 1
 ```
+### 5. Selezionare tutti gli appelli d'esame che avvengono nel pomeriggio (dopo le 14) del 20/06/2020 ###
+
+```SQL
+```
+
+### 6. Selezionare tutti i corsi di laurea magistrale ###
+
+```SQL
+SELECT * 
+FROM `degrees`
+```
+
+### 7. Da quanti dipartimenti è composta l'università ###
+
+```SQL
+SELECT COUNT(*) AS department_number 
+FROM `departments`;
+```
