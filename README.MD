@@ -46,3 +46,11 @@ FROM `degrees`
 SELECT COUNT(*) AS department_number 
 FROM `departments`;
 ```
+
+### 8. Quanti sono gli insegnanti che non hanno un numero di telefono? ###
+
+```SQL
+SELECT COUNT(*) AS teacher_not_number 
+FROM `teachers`
+WHERE `phone` IS NULL;
+```
