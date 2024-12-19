@@ -60,3 +60,22 @@ SELECT COUNT(*) AS teacher_not_number
 FROM `teachers`
 WHERE `phone` IS NULL;
 ```
+
+### 9. Inserire nella tabella degli studenti un nuovo record con i propri dati (per il campo degree_id, inserire un valore casuale) ###
+
+```SQL
+UPDATE `teachers`
+SET `office_number` = '126'
+WHERE `id` = 58
+```
+
+### 10. Cambiare il numero dell'ufficio del professor Pietro Rizzo in 126 ### 
+```SQL
+
+```
+
+
+### 11. Eliminare dalla tabella studenti il record creato precedentemente al punto 9 ### 
+```SQL
+
+```
